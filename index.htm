@@ -186,7 +186,7 @@
         new mapboxgl.Popup()
           .setLngLat(coordinates[0][0])
           // .setHTML(stateName)
-          .setHTML(document.getElementsByClassName("mapboxgl-popup-content").innerHTML = '<img src="' + result.img + '" alt="" /><h2>' + result.title + '</h2><br/><p>' + result.author + '</p>')
+          .setHTML(document.getElementsByClassName("mapboxgl-popup-content").innerHTML = '<h2>' + result.title + '</h2><img src="' + result.img + '" alt="" /><p>' + result.author + "</p><p>" + result.description + "</p><p><a href='" + result.audiobook_url + "'>Audiobook</a></p>" + "<p>Published: " + result.published + "</p><p>" + result.pagecount + " pages</p><p>Average rating: " + result.average_rating + "</p>")
           .addTo(map);
       });
 

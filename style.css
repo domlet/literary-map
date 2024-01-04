@@ -7,9 +7,9 @@ body {
 #map { position: absolute; top: 0; bottom: 0; width: 100%;}
 
 .mapboxgl-popup {
-  max-width: 400px;
+  /* max-width: 400px; */
   font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  width: 15em;
+  width: 20em;
   }
   
   h2 {
@@ -22,7 +22,7 @@ body {
 
   img {
     width: 6em;
-    margin: 0.5em;
+    margin: 0.8em;
     float: right;
     border: 1px solid gray;
     border-radius: 0.2em;
