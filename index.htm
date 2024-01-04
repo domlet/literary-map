@@ -4,19 +4,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mapbox Map</title>
+  <title>Literary Map of the United States (@domlet)</title>
   <script src="https://code.jquery.com/jquery-1.8.2.min.js"></script>
   <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
   <link href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css" rel="stylesheet" />
   <link rel="stylesheet" href="style.css">
-  <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing+Script"> -->
-
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing+Script">
 </head>
 
 <body>
 
   <div id="map"></div>
-  <p id="demo"></p>
 
   <script type="text/javascript">
 
@@ -25,8 +23,6 @@
     var error = new Object();
     $.getJSON('books.js').done(function (data) {
       obj = data;
-      // document.getElementById("demo").innerHTML = '<h2>' + obj[0].title + '</h2><br/><p>' + obj[0].author + '</p><img src="' + obj[0].img + '" alt="" />';
-      document.getElementsByClassName("mapboxgl-popup-content").innerHTML = '<h2>' + obj[0].title + '</h2><br/><p>' + obj[0].author + '</p><img src="' + obj[0].img + '" alt="" />';
     }).error(function (err) {
       error = err;
     });
@@ -43,7 +39,7 @@
       center: [-96, 37.8], // Example center coordinates (longitude, latitude)
       maxZoom: 10,
       minZoom: 2,
-      zoom: 4 // Example zoom level
+      zoom: 4
     });
     let hoveredPolygonId = null; // for mouseover effect
 
@@ -66,15 +62,6 @@
         'type': 'geojson',
         'data': 'us_states.geojson'
       });
-
-      /*
-      map.addLayer({
-        "id": "background",
-        "type": "background",
-        "layout": {},
-        "paint": { "background-color": "#a4cee3" }
-      });
-      */
 
       // state fill colors
       map.addLayer({
@@ -186,7 +173,25 @@
         new mapboxgl.Popup()
           .setLngLat(coordinates[0][0])
           // .setHTML(stateName)
-          .setHTML(document.getElementsByClassName("mapboxgl-popup-content").innerHTML = '<h2>' + result.title + '</h2><img src="' + result.img + '" alt="" /><p>' + result.author + "</p><p>" + result.description + "</p><p><a href='" + result.audiobook_url + "'>Audiobook</a></p>" + "<p>Published: " + result.published + "</p><p>" + result.pagecount + " pages</p><p>Average rating: " + result.average_rating + "</p>")
+          .setHTML(document.getElementsByClassName("mapboxgl-popup-content").innerHTML =
+            '<h4>' + stateName + ' #' + result.state_num + ' (' + result.state_ratified_year + ')</h4 > ' +
+            '<h2>' +
+            result.title +
+            '</h2><a href="' + result.url + '" target="_blank"><img src="' +
+            result.img +
+            '" alt="" /></a><h3> by ' +
+            result.author +
+            "</h3><p>" +
+            result.description +
+            "<hr><p><strong>Published:</strong> " +
+            result.published +
+            "</p><p><strong>Pages: </strong>" +
+            result.pagecount +
+            "</p><p><strong>Average rating:</strong> " +
+            result.average_rating +
+            "</p><p><a href='" +
+            result.audiobook_url +
+            "'>Audiobook</a></p>")
           .addTo(map);
       });
 
