@@ -15,13 +15,12 @@
 
 <body>
 
-  <!-- <div id="map"></div> -->
+  <div id="map"></div>
   <p id="demo"></p>
 
   <script type="text/javascript">
 
     // external json
-
     var obj = new Object();
     var error = new Object();
     $.getJSON('books.js').done(function (data) {
@@ -139,8 +138,6 @@
       // When the user moves their mouse over the state-fill layer, we'll update the
       // feature state for the feature under the mouse.
       map.on('mousemove', 'state-fills', (e) => {
-        console.log("features is " + e.features.length)
-        console.log(hoveredPolygonId)
         if (e.features.length > 0) {
           if (hoveredPolygonId !== null) {
             map.setFeatureState(
@@ -153,7 +150,6 @@
             { source: 'states', id: hoveredPolygonId },
             { hover: true }
           );
-          console.log('its working')
         }
       });
 
@@ -167,6 +163,26 @@
           );
         }
         hoveredPolygonId = null;
+      });
+
+      // popups
+      map.on('click', 'state-fills', (e) => {
+        // Copy coordinates array.
+        const coordinates = e.features[0].geometry.coordinates.slice();
+        const stateName = e.features[0].properties.STATE_NAME;
+
+        // Ensure that if the map is zoomed out such that multiple
+        // copies of the feature are visible, the popup appears
+        // over the copy being pointed to.
+        while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+          coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+        }
+        console.log(coordinates)
+        console.log(stateName)
+        new mapboxgl.Popup()
+          .setLngLat(coordinates[0][0])
+          .setHTML(stateName)
+          .addTo(map);
       });
 
 
