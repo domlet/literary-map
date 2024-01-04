@@ -180,10 +180,13 @@
         }
         console.log(coordinates)
         console.log(stateName)
+        const result = obj.find(obj => {
+          return obj.state_long === stateName
+        })
         new mapboxgl.Popup()
           .setLngLat(coordinates[0][0])
           // .setHTML(stateName)
-          .setHTML(document.getElementsByClassName("mapboxgl-popup-content").innerHTML = '<img src="' + obj[0].img + '" alt="" /><h2>' + obj[0].title + '</h2><br/><p>' + obj[0].author + '</p>')
+          .setHTML(document.getElementsByClassName("mapboxgl-popup-content").innerHTML = '<img src="' + result.img + '" alt="" /><h2>' + result.title + '</h2><br/><p>' + result.author + '</p>')
           .addTo(map);
       });
 

@@ -1,426 +1,638 @@
 [
-  {
-    "state_long": "California",
-    "state_short": "CA",
-    "title": "Drop City",
-    "author": "T. C. Boyle",
-    "audiobook_url": "https://sfpl.bibliocommons.com/v2/record/S93C2245143",
-    "img": "img/drop_city.jpg"
-  },
-  {
-    "state_long": "Rhode Island",
-    "state_short": "RI",
-    "title": "The Marriage Plot",
-    "author": "Jeffrey Eugenides",
-    "audiobook_url": "https://sfpl.bibliocommons.com/v2/record/S93C2528836",
-    "img": "img/the_marriage_plot.jpg"
-  },
-  {
-    "state_long": "Mississippi",
-    "state_short": "MS",
-    "title": "Roll Of Thunder Hear My Cry",
-    "author": "Mildred D. Taylor",
-    "audiobook_url": "https://sfpl.bibliocommons.com/v2/record/S93C2976943",
-    "img": "img/roll_of_thunder_hear_my_cry.jpg"
-  },
-  {
-    "state_long": "New York",
-    "state_short": "NY",
-    "title": "The Bonfire Of The Vanities",
-    "author": "Tom Wolfe",
-    "audiobook_url": "https://sfpl.bibliocommons.com/v2/record/S93C3580821",
-    "img": "img/the_bonfire_of_the_vanities.jpg"
-  },
-  {
-    "state_long": "Texas",
-    "state_short": "TX",
-    "title": "All The Pretty Horses",
-    "author": "Cormac McCarthy",
-    "audiobook_url": "https://sfpl.bibliocommons.com/v2/record/S93C4513670",
-    "img": "img/all_the_pretty_horses.jpg"
-  },
-  {
-    "state_long": "West Virginia",
-    "state_short": "WV",
-    "title": "John Henry Days",
-    "author": "Colson Whitehead",
-    "audiobook_url": "https://sfpl.bibliocommons.com/v2/record/S93C4537606",
-    "img": "img/john_henry_days.jpg"
-  },
-  {
-    "state_long": "Utah",
-    "state_short": "UT",
-    "title": "The Lonely Polygamist",
-    "author": "Brady Udall",
-    "audiobook_url": "https://sfpl.bibliocommons.com/v2/record/S93C4544193",
-    "img": "img/the_lonely_polygamist.jpg"
-  },
-  {
-    "state_long": "Texas",
-    "state_short": "TX",
-    "title": "Lonesome Dove",
-    "author": "Larry McMurtry",
-    "audiobook_url": "https://sfpl.bibliocommons.com/v2/record/S93C5091312",
-    "img": "img/lonesome_dove.jpg"
-  },
-  {
-    "state_long": "Minnesota",
-    "state_short": "MN",
-    "title": "The Things They Carried",
-    "author": "Tim O'Brien",
-    "audiobook_url": "https://sfpl.bibliocommons.com/v2/search?query=The%20Things%20They%20Carried",
-    "img": "img/the_things_they_carried.jpg"
-  },
-  {
-    "state_long": "Florida",
-    "state_short": "FL",
-    "title": "Their Eyes Were Watching God",
-    "author": "Zora Neale Hurston",
-    "audiobook_url": "https://sfpl.bibliocommons.com/v2/search?query=Their%20Eyes%20Were%20Watching%20God",
-    "img": "img/their_eyes_were_watching_god.jpg"
-  },
-  {
-    "state_long": "Washington",
-    "state_short": "WA",
-    "title": "Another Roadside Attraction",
-    "author": "Tom Robbins",
-    "audiobook_url": "",
-    "img": "img/another_roadside_attraction.jpg"
-  },
-  {
-    "state_long": "Maine",
-    "state_short": "ME",
-    "title": "Olive Kittredge",
-    "author": "Elizabeth Strout",
-    "audiobook_url": "",
-    "img": "img/olive_kittredge.jpg"
-  },
-  {
-    "state_long": "California",
-    "state_short": "CA",
-    "title": "Play It As It Lays",
-    "author": "Joan Didion",
-    "audiobook_url": "",
-    "img": "img/play_it_as_it_lays.jpg"
-  },
-  {
-    "state_long": "Delaware",
-    "state_short": "DE",
-    "title": "The Book Of Unknown Americas",
-    "author": "Cristina Henríquez",
-    "audiobook_url": "",
-    "img": "img/the_book_of_unknown_americas.jpg"
-  },
-  {
-    "state_long": "South Carolina",
-    "state_short": "SC",
-    "title": "The Prince Of Tides",
-    "author": "Pat Conroy",
-    "audiobook_url": "",
-    "img": "img/the_prince_of_tides.jpg"
-  },
-  {
-    "state_long": "Michigan",
-    "state_short": "MI",
-    "title": "True North",
-    "author": "Jim Harrison",
-    "audiobook_url": "",
-    "img": "img/true_north.jpg"
-  },
-  {
-    "state_long": "Missouri",
-    "state_short": "MO",
-    "title": "Winter’s Bone",
-    "author": "Daniel Woodrell",
-    "audiobook_url": "",
-    "img": "img/winter’s_bone.jpg"
-  },
-  {
-    "state_long": "Wyoming",
-    "state_short": "WY",
-    "title": "Close Range",
-    "author": "Annie Proulx",
-    "audiobook_url": "https://sfpl.bibliocommons.com/v2/record/S93C2468056",
-    "img": "img/close_range.jpg"
-  },
-  {
-    "state_long": "Louisiana",
-    "state_short": "LA",
-    "title": "A Confederacy Of Dunces",
-    "author": "John Kennedy Toole",
-    "audiobook_url": "https://sfpl.bibliocommons.com/v2/record/S93C2468693",
-    "img": "img/a_confederacy_of_dunces.jpg"
-  },
-  {
-    "state_long": "Kansas",
-    "state_short": "KS",
-    "title": "The Wonderful Wizard of Oz",
-    "author": "L. Frank Baum",
-    "audiobook_url": "https://sfpl.bibliocommons.com/v2/record/S93C2747205",
-    "img": "img/the_wonderful_wizard_of_oz.jpg"
-  },
-  {
-    "state_long": "Arizona",
-    "state_short": "AZ",
-    "title": "Animal Dreams",
-    "author": "Barbara Kingsolver",
-    "audiobook_url": "https://sfpl.bibliocommons.com/v2/record/S93C4404474",
-    "img": "img/animal_dreams.jpg"
-  },
-  {
-    "state_long": "Tennessee",
-    "state_short": "TN",
-    "title": "A Death In The Family",
-    "author": "James Agee",
-    "audiobook_url": "https://sfpl.bibliocommons.com/v2/search?query=A%20Death%20In%20The%20Family",
-    "img": "img/a_death_in_the_family.jpg"
-  },
-  {
-    "state_long": "Oregon",
-    "state_short": "OR",
-    "title": "Geek Love",
-    "author": "Katherine Dunn",
-    "audiobook_url": "https://sfpl.bibliocommons.com/v2/search?query=Geek%20Love",
-    "img": "img/geek_love.jpg"
-  },
-  {
-    "state_long": "Illinois",
-    "state_short": "IL",
-    "title": "The House On Mango St.",
-    "author": "Sandra Cisneros",
-    "audiobook_url": "https://sfpl.bibliocommons.com/v2/search?query=The%20House%20On%20Mango%20St.",
-    "img": "img/the_house_on_mango_st..jpg"
-  },
-  {
-    "state_long": "New Jersey",
-    "state_short": "NJ",
-    "title": "Election",
-    "author": "Tom Perrotta",
-    "audiobook_url": "",
-    "img": "img/election.jpg"
-  },
-  {
-    "state_long": "North Dakota",
-    "state_short": "ND",
-    "title": "Love Medicine",
-    "author": "Louise Erdrich",
-    "audiobook_url": "",
-    "img": "img/love_medicine.jpg"
-  },
-  {
-    "state_long": "Vermont",
-    "state_short": "VT",
-    "title": "Midwives",
-    "author": "Chris Bohjalian",
-    "audiobook_url": "",
-    "img": "img/midwives.jpg"
-  },
-  {
-    "state_long": "Oklahoma",
-    "state_short": "OK",
-    "title": "True Grit",
-    "author": "Charles Portis",
-    "audiobook_url": "https://sfpl.bibliocommons.com/v2/record/S93C4546176",
-    "img": "img/true_grit.jpg"
-  },
-  {
-    "state_long": "Nevada",
-    "state_short": "NV",
-    "title": "Grind",
-    "author": "Mark Maynard",
-    "audiobook_url": "No",
-    "img": "img/grind.jpg"
-  },
-  {
-    "state_long": "Nebraska",
-    "state_short": "NE",
-    "title": "Me Antonia",
-    "author": "Willa Cather",
-    "audiobook_url": "",
-    "img": "img/me_antonia.jpg"
-  },
-  {
-    "state_long": "Connecticut",
-    "state_short": "CT",
-    "title": "Revolutionary Road",
-    "author": "Richard Yates",
-    "audiobook_url": "",
-    "img": "img/revolutionary_road.jpg"
-  },
-  {
-    "state_long": "Virginia",
-    "state_short": "VA",
-    "title": "The Known World",
-    "author": "Edward P. Jones",
-    "audiobook_url": "",
-    "img": "img/the_known_world.jpg"
-  },
-  {
-    "state_long": "Indiana",
-    "state_short": "IN",
-    "title": "The Stone Diaries",
-    "author": "Carol Shields",
-    "audiobook_url": "",
-    "img": "img/the_stone_diaries.jpg"
-  },
-  {
-    "state_long": "Colorado",
-    "state_short": "CO",
-    "title": "The Shining",
-    "author": "Stephen King",
-    "audiobook_url": "https://sfpl.bibliocommons.com/v2/record/S93C2568719",
-    "img": "img/the_shining.jpg"
-  },
-  {
-    "state_long": "Alabama",
-    "state_short": "AL",
-    "title": "Inside Out And Back Again",
-    "author": "Thanhha Lai",
-    "audiobook_url": "https://sfpl.bibliocommons.com/v2/record/S93C4537358",
-    "img": "img/inside_out_and_back_again.jpg"
-  },
-  {
-    "state_long": "Wisconsin",
-    "state_short": "WI",
-    "title": "American Gods",
-    "author": "Neil Gaiman",
-    "audiobook_url": "https://sfpl.bibliocommons.com/v2/search?query=American%20Gods",
-    "img": "img/american_gods.jpg"
-  },
-  {
-    "state_long": "South Dakota",
-    "state_short": "SD",
-    "title": "By The Shores Of Silverlake",
-    "author": "Laura Ingalls Wilder",
-    "audiobook_url": "https://sfpl.bibliocommons.com/v2/search?query=By%20The%20Shores%20Of%20Silverlake",
-    "img": "img/by_the_shores_of_silverlake.jpg"
-  },
-  {
-    "state_long": "Idaho",
-    "state_short": "ID",
-    "title": "Housekeeping",
-    "author": "Marilynne Robinson",
-    "audiobook_url": "https://sfpl.bibliocommons.com/v2/search?query=Housekeeping",
-    "img": "img/housekeeping.jpg"
-  },
-  {
-    "state_long": "Kentucky",
-    "state_short": "KY",
-    "title": "Jayber Crow",
-    "author": "Wendell Berry",
-    "audiobook_url": "https://sfpl.bibliocommons.com/v2/search?query=Jayber%20Crow",
-    "img": "img/jayber_crow.jpg"
-  },
-  {
-    "state_long": "Massachusetts",
-    "state_short": "MA",
-    "title": "Townie",
-    "author": "Andre Dubus",
-    "audiobook_url": "https://sfpl.bibliocommons.com/v2/search?query=Townie",
-    "img": "img/townie.jpg"
-  },
-  {
-    "state_long": "North Carolina",
-    "state_short": "NC",
-    "title": "A Short History Of A Small Place",
-    "author": "T. R. Pearson",
-    "audiobook_url": "",
-    "img": "img/a_short_history_of_a_small_place.jpg"
-  },
-  {
-    "state_long": "Hawaii",
-    "state_short": "HI",
-    "title": "Malachi",
-    "author": "Alan Brennert",
-    "audiobook_url": "",
-    "img": "img/malachi.jpg"
-  },
-  {
-    "state_long": "Pennsylvania",
-    "state_short": "PN",
-    "title": "The Killer Angels",
-    "author": "Michael Shaara",
-    "audiobook_url": "",
-    "img": "img/the_killer_angels.jpg"
-  },
-  {
-    "state_long": "New Mexico",
-    "state_short": "NM",
-    "title": "Ceremony",
-    "author": "Leslie Marmon Silko",
-    "audiobook_url": "https://sfpl.bibliocommons.com/v2/record/S93C4533922",
-    "img": "img/ceremony.jpg"
-  },
-  {
-    "state_long": "Ohio",
-    "state_short": "OH",
-    "title": "Beloved",
-    "author": "Toni Morrison",
-    "audiobook_url": "https://sfpl.bibliocommons.com/v2/search?query=Beloved",
-    "img": "img/beloved.jpg"
-  },
-  {
-    "state_long": "New Hampshire",
-    "state_short": "NH",
-    "title": "Hotel New Hampshire",
-    "author": "John Irving",
-    "audiobook_url": "https://sfpl.bibliocommons.com/v2/search?query=Hotel%20New%20Hampshire",
-    "img": "img/hotel_new_hampshire.jpg"
-  },
-  {
-    "state_long": "Iowa",
-    "state_short": "IA",
-    "title": "1000 Acres",
-    "author": "Jane Smiley",
-    "audiobook_url": "",
-    "img": "img/1000_acres.jpg"
-  },
-  {
-    "state_long": "Montana",
-    "state_short": "MT",
-    "title": "Breaking Clean",
-    "author": "Judy J. Blunt",
-    "audiobook_url": "",
-    "img": "img/breaking_clean.jpg"
-  },
-  {
-    "state_long": "Georgia",
-    "state_short": "GA",
-    "title": "Gone With The Wind",
-    "author": "Margaret Mitchell",
-    "audiobook_url": "",
-    "img": "img/gone_with_the_wind.jpg"
-  },
-  {
-    "state_long": "Maryland",
-    "state_short": "MD",
-    "title": "The Accidental Tourist",
-    "author": "Anne Tyler",
-    "audiobook_url": "",
-    "img": "img/the_accidental_tourist.jpg"
-  },
-  {
-    "state_long": "Puerto Rico",
-    "state_short": "PR",
-    "title": "",
-    "author": "",
-    "audiobook_url": "",
-    "img": "img/.jpg"
-  },
-  {
-    "state_long": "Arkansas",
-    "state_short": "AR",
-    "title": "Summer Of My German Soldier",
-    "author": "Eowyn Ivey",
-    "audiobook_url": "",
-    "img": "img/summer_of_my_german_soldier.jpg"
-  },
-  {
-    "state_long": "Alaska",
-    "state_short": "AK",
-    "title": "To The Bright Edge Of The World",
-    "author": "Greene Bette",
-    "audiobook_url": "https://www.hoopladigital.com/title/13524386?utm_source=MARC",
-    "img": "img/to_the_bright_edge_of_the_world.jpg"
-  }
- ]
+ {
+   "state_long": "California",
+   "state_short": "CA",
+   "title": "Drop City",
+   "author": "T. C. Boyle",
+   "audiobook_url": "https://sfpl.bibliocommons.com/v2/record/S93C2245143",
+   "img": "img/drop_city.jpg",
+   "published": "",
+   "pagecount": "",
+   "average_rating": "",
+   "description": ""
+ },
+ {
+   "state_long": "Rhode Island",
+   "state_short": "RI",
+   "title": "The Marriage Plot",
+   "author": "Jeffrey Eugenides",
+   "audiobook_url": "https://sfpl.bibliocommons.com/v2/record/S93C2528836",
+   "img": "img/the_marriage_plot.jpg",
+   "published": "",
+   "pagecount": "",
+   "average_rating": "",
+   "description": ""
+ },
+ {
+   "state_long": "Mississippi",
+   "state_short": "MS",
+   "title": "Roll Of Thunder Hear My Cry",
+   "author": "Mildred D. Taylor",
+   "audiobook_url": "https://sfpl.bibliocommons.com/v2/record/S93C2976943",
+   "img": "img/roll_of_thunder_hear_my_cry.jpg",
+   "published": "2001",
+   "pagecount": "304",
+   "average_rating": "4",
+   "description": "A black family living in the South during the 1930's are faced with prejudice and discrimination which their children don't understand."
+ },
+ {
+   "state_long": "New York",
+   "state_short": "NY",
+   "title": "The Bonfire Of The Vanities",
+   "author": "Tom Wolfe",
+   "audiobook_url": "https://sfpl.bibliocommons.com/v2/record/S93C3580821",
+   "img": "img/the_bonfire_of_the_vanities.jpg",
+   "published": "",
+   "pagecount": "",
+   "average_rating": "",
+   "description": ""
+ },
+ {
+   "state_long": "Texas",
+   "state_short": "TX",
+   "title": "All The Pretty Horses",
+   "author": "Cormac McCarthy",
+   "audiobook_url": "https://sfpl.bibliocommons.com/v2/record/S93C4513670",
+   "img": "img/all_the_pretty_horses.jpg",
+   "published": "1992",
+   "pagecount": "328",
+   "average_rating": "4",
+   "description": "John Grady Cole, 16, leaves Texas for Mexico in 1950 and becomes an essential vaquero in a hacienda's program."
+ },
+ {
+   "state_long": "West Virginia",
+   "state_short": "WV",
+   "title": "John Henry Days",
+   "author": "Colson Whitehead",
+   "audiobook_url": "https://sfpl.bibliocommons.com/v2/record/S93C4537606",
+   "img": "img/john_henry_days.jpg",
+   "published": "",
+   "pagecount": "",
+   "average_rating": "",
+   "description": ""
+ },
+ {
+   "state_long": "Utah",
+   "state_short": "UT",
+   "title": "The Lonely Polygamist",
+   "author": "Brady Udall",
+   "audiobook_url": "https://sfpl.bibliocommons.com/v2/record/S93C4544193",
+   "img": "img/the_lonely_polygamist.jpg",
+   "published": "",
+   "pagecount": "",
+   "average_rating": "",
+   "description": ""
+ },
+ {
+   "state_long": "Texas",
+   "state_short": "TX",
+   "title": "Lonesome Dove",
+   "author": "Larry McMurtry",
+   "audiobook_url": "https://sfpl.bibliocommons.com/v2/record/S93C5091312",
+   "img": "img/lonesome_dove.jpg",
+   "published": "",
+   "pagecount": "",
+   "average_rating": "",
+   "description": ""
+ },
+ {
+   "state_long": "Minnesota",
+   "state_short": "MN",
+   "title": "The Things They Carried",
+   "author": "Tim O'Brien",
+   "audiobook_url": "https://sfpl.bibliocommons.com/v2/search?query=The%20Things%20They%20Carried",
+   "img": "img/the_things_they_carried.jpg",
+   "published": "2011",
+   "pagecount": "N/A",
+   "average_rating": "N/A",
+   "description": "Two bestselling novels from one of his generation's most deservedly acclaimed authors. (Chicago Tribune)"
+ },
+ {
+   "state_long": "Florida",
+   "state_short": "FL",
+   "title": "Their Eyes Were Watching God",
+   "author": "Zora Neale Hurston",
+   "audiobook_url": "https://sfpl.bibliocommons.com/v2/search?query=Their%20Eyes%20Were%20Watching%20God",
+   "img": "img/their_eyes_were_watching_god.jpg",
+   "published": "1978",
+   "pagecount": "306",
+   "average_rating": "N/A",
+   "description": "Initially published in 1937, this novel about a proud, independent black woman has, since its reissue in trade paper in 1978, been the most widely readand highly acclaimed novel in the canon of African-American literature. With this richly illustrated new edition, the novel is finally accorded the treatment it deserves as a classic."
+ },
+ {
+   "state_long": "Washington",
+   "state_short": "WA",
+   "title": "Another Roadside Attraction",
+   "author": "Tom Robbins",
+   "audiobook_url": "",
+   "img": "img/another_roadside_attraction.jpg",
+   "published": "",
+   "pagecount": "",
+   "average_rating": "",
+   "description": ""
+ },
+ {
+   "state_long": "Maine",
+   "state_short": "ME",
+   "title": "Olive Kittredge",
+   "author": "Elizabeth Strout",
+   "audiobook_url": "",
+   "img": "img/olive_kittredge.jpg",
+   "published": "2014-12-04",
+   "pagecount": "N/A",
+   "average_rating": "N/A",
+   "description": "Elizabeth Strout's acclaimed novel Olive Kitteridge is now the basis for a HBO drama starring Academy Award-winner Frances McDormand. Olive Kitteridge: indomitable, compassionate and often unpredictable. A retired schoolteacher in a small coastal town in Maine, as she grows older she struggles to make sense of the changes in her life. She is a woman who sees into the hearts of those around her, their triumphs and tragedies. We meet her stoic husband, bound to her in a marriage both broken and strong, and a young man who aches for the mother he lost - and whom Olive comforts by her mere presence, while her own son feels overwhelmed by her complex sensitivities. A penetrating, vibrant exploration of the human soul, the story of Olive Kitteridge will make you laugh, nod in recognition, wince in pain, and shed a tear or two."
+ },
+ {
+   "state_long": "California",
+   "state_short": "CA",
+   "title": "Play It As It Lays",
+   "author": "Joan Didion",
+   "audiobook_url": "",
+   "img": "img/play_it_as_it_lays.jpg",
+   "published": "2011",
+   "pagecount": "N/A",
+   "average_rating": "N/A",
+   "description": "Somewhere out beyond Hollywood, has-been actress Maria Wyeth's life is going off the rails. But her permanent catatonic state leaves her a mere bystander to her own downward spiral. Observing her life with detachment, Wyeth epitomises a generation left lost and inert by too much freedom."
+ },
+ {
+   "state_long": "Delaware",
+   "state_short": "DE",
+   "title": "The Book Of Unknown Americas",
+   "author": "Cristina Henríquez",
+   "audiobook_url": "",
+   "img": "img/the_book_of_unknown_americas.jpg",
+   "published": "2019-05-02",
+   "pagecount": "N/A",
+   "average_rating": "N/A",
+   "description": "A deeply moving novel about the many different voices of the immigrant experience, inspired by the story of the author's father."
+ },
+ {
+   "state_long": "South Carolina",
+   "state_short": "SC",
+   "title": "The Prince Of Tides",
+   "author": "Pat Conroy",
+   "audiobook_url": "",
+   "img": "img/the_prince_of_tides.jpg",
+   "published": "",
+   "pagecount": "",
+   "average_rating": "",
+   "description": ""
+ },
+ {
+   "state_long": "Michigan",
+   "state_short": "MI",
+   "title": "True North",
+   "author": "Jim Harrison",
+   "audiobook_url": "",
+   "img": "img/true_north.jpg",
+   "published": "2004",
+   "pagecount": "404",
+   "average_rating": "N/A",
+   "description": "The author of Legends of the Fall presents a novel that revolves around David Burkett, a man who has grown up on Michigan's Upper Penninsula and realizes he must face the destruction caused to the region's natural environment by his ancestors. Reprint.. 35,000 first printing."
+ },
+ {
+   "state_long": "Missouri",
+   "state_short": "MO",
+   "title": "Winter’s Bone",
+   "author": "Daniel Woodrell",
+   "audiobook_url": "",
+   "img": "img/winter’s_bone.jpg",
+   "published": "",
+   "pagecount": "",
+   "average_rating": "",
+   "description": ""
+ },
+ {
+   "state_long": "Wyoming",
+   "state_short": "WY",
+   "title": "Close Range",
+   "author": "Annie Proulx",
+   "audiobook_url": "https://sfpl.bibliocommons.com/v2/record/S93C2468056",
+   "img": "img/close_range.jpg",
+   "published": "2000-02-10",
+   "pagecount": "288",
+   "average_rating": "N/A",
+   "description": "From the Pulitzer Prize-winning and bestselling author of The Shipping News and Accordion Crimes comes one of the most celebrated short-story collections of our time. Annie Proulx's masterful language and fierce love of Wyoming are evident in these breathtaking tales of loneliness, quick violence, and the wrong kinds of love. Each of the stunning portraits in Close Range reveals characters fiercely wrought with precision and grace. These are stories of desperation and unlikely elation, set in a landscape both stark and magnificent -- by an author writing at the peak of her craft."
+ },
+ {
+   "state_long": "Louisiana",
+   "state_short": "LA",
+   "title": "A Confederacy Of Dunces",
+   "author": "John Kennedy Toole",
+   "audiobook_url": "https://sfpl.bibliocommons.com/v2/record/S93C2468693",
+   "img": "img/a_confederacy_of_dunces.jpg",
+   "published": "1980",
+   "pagecount": "418",
+   "average_rating": "5",
+   "description": "Set in New Orleans, the protagonist is nearly arrested for being a suspicious character and encounters many unfortunate events."
+ },
+ {
+   "state_long": "Kansas",
+   "state_short": "KS",
+   "title": "The Wonderful Wizard of Oz",
+   "author": "L. Frank Baum",
+   "audiobook_url": "https://sfpl.bibliocommons.com/v2/record/S93C2747205",
+   "img": "img/the_wonderful_wizard_of_oz.jpg",
+   "published": "1993-04-15",
+   "pagecount": "196",
+   "average_rating": "3",
+   "description": "After a cyclone transports her to the land of Oz, Dorothy must seek out the great wizard in order to return to Kansas."
+ },
+ {
+   "state_long": "Arizona",
+   "state_short": "AZ",
+   "title": "Animal Dreams",
+   "author": "Barbara Kingsolver",
+   "audiobook_url": "https://sfpl.bibliocommons.com/v2/record/S93C4404474",
+   "img": "img/animal_dreams.jpg",
+   "published": "1990",
+   "pagecount": "360",
+   "average_rating": "N/A",
+   "description": "Codi returns to her hometown to confront her past and face her ailing father. What she finds is a town threatened by an environmental catastrophe and a man who could change her life."
+ },
+ {
+   "state_long": "Tennessee",
+   "state_short": "TN",
+   "title": "A Death In The Family",
+   "author": "James Agee",
+   "audiobook_url": "https://sfpl.bibliocommons.com/v2/search?query=A%20Death%20In%20The%20Family",
+   "img": "img/a_death_in_the_family.jpg",
+   "published": "1998",
+   "pagecount": "322",
+   "average_rating": "3",
+   "description": "Sample Text"
+ },
+ {
+   "state_long": "Oregon",
+   "state_short": "OR",
+   "title": "Geek Love",
+   "author": "Katherine Dunn",
+   "audiobook_url": "https://sfpl.bibliocommons.com/v2/search?query=Geek%20Love",
+   "img": "img/geek_love.jpg",
+   "published": "",
+   "pagecount": "",
+   "average_rating": "",
+   "description": ""
+ },
+ {
+   "state_long": "Illinois",
+   "state_short": "IL",
+   "title": "The House On Mango St.",
+   "author": "Sandra Cisneros",
+   "audiobook_url": "https://sfpl.bibliocommons.com/v2/search?query=The%20House%20On%20Mango%20St.",
+   "img": "img/the_house_on_mango_st..jpg",
+   "published": "",
+   "pagecount": "",
+   "average_rating": "",
+   "description": ""
+ },
+ {
+   "state_long": "New Jersey",
+   "state_short": "NJ",
+   "title": "Election",
+   "author": "Tom Perrotta",
+   "audiobook_url": "",
+   "img": "img/election.jpg",
+   "published": "",
+   "pagecount": "",
+   "average_rating": "",
+   "description": ""
+ },
+ {
+   "state_long": "North Dakota",
+   "state_short": "ND",
+   "title": "Love Medicine",
+   "author": "Louise Erdrich",
+   "audiobook_url": "",
+   "img": "img/love_medicine.jpg",
+   "published": "",
+   "pagecount": "",
+   "average_rating": "",
+   "description": ""
+ },
+ {
+   "state_long": "Vermont",
+   "state_short": "VT",
+   "title": "Midwives",
+   "author": "Chris Bohjalian",
+   "audiobook_url": "",
+   "img": "img/midwives.jpg",
+   "published": "1998",
+   "pagecount": "388",
+   "average_rating": "N/A",
+   "description": "A cloth bag containing ten copies of the title, that may also include a folder with miscellaneous notes, discussion questions, biographical information, and reading lists to assist book group discussion leaders."
+ },
+ {
+   "state_long": "Oklahoma",
+   "state_short": "OK",
+   "title": "True Grit",
+   "author": "Charles Portis",
+   "audiobook_url": "https://sfpl.bibliocommons.com/v2/record/S93C4546176",
+   "img": "img/true_grit.jpg",
+   "published": "1968",
+   "pagecount": "215",
+   "average_rating": "N/A",
+   "description": "N/A"
+ },
+ {
+   "state_long": "Nevada",
+   "state_short": "NV",
+   "title": "Grind",
+   "author": "Mark Maynard",
+   "audiobook_url": "No",
+   "img": "img/grind.jpg",
+   "published": "",
+   "pagecount": "",
+   "average_rating": "",
+   "description": ""
+ },
+ {
+   "state_long": "Nebraska",
+   "state_short": "NE",
+   "title": "Me Antonia",
+   "author": "Willa Cather",
+   "audiobook_url": "",
+   "img": "img/me_antonia.jpg",
+   "published": "",
+   "pagecount": "",
+   "average_rating": "",
+   "description": ""
+ },
+ {
+   "state_long": "Connecticut",
+   "state_short": "CT",
+   "title": "Revolutionary Road",
+   "author": "Richard Yates",
+   "audiobook_url": "",
+   "img": "img/revolutionary_road.jpg",
+   "published": "2008",
+   "pagecount": "355",
+   "average_rating": "N/A",
+   "description": "The devastating effects of work, adultery, rebellion, and self-deception slowly destroy the once successful marriage of Frank and April Wheeler, a suburban American couple. Reissue. 350,000 first printing. (A DreamWorks film, directed by Sam Mendes, releasing December 2008, starring Leonardo DiCaprio, Kate Winslet, Kathy Bates, David Harbour, Michael Shannon, & Zoe Kazan). (General Fiction)"
+ },
+ {
+   "state_long": "Virginia",
+   "state_short": "VA",
+   "title": "The Known World",
+   "author": "Edward P. Jones",
+   "audiobook_url": "",
+   "img": "img/the_known_world.jpg",
+   "published": "2004-06-15",
+   "pagecount": "580",
+   "average_rating": "3.5",
+   "description": "In one of the most acclaimed novels in recent memory, Edward P. Jones, two-time National Book Award finalist, tells the story of Henry Townsend, a black farmer and former slave who falls under the tutelage of William Robbins, the most powerful man in Manchester County, Virginia. Making certain he never circumvents the law, Townsend runs his affairs with unusual discipline. But when death takes him unexpectedly, his widow, Caldonia, can't uphold the estate's order and chaos ensues. In a daring and ambitious novel, Jones has woven a footnote of history into an epic that takes an unflinching look at slavery in all of its moral complexities."
+ },
+ {
+   "state_long": "Indiana",
+   "state_short": "IN",
+   "title": "The Stone Diaries",
+   "author": "Carol Shields",
+   "audiobook_url": "",
+   "img": "img/the_stone_diaries.jpg",
+   "published": "",
+   "pagecount": "",
+   "average_rating": "",
+   "description": ""
+ },
+ {
+   "state_long": "Colorado",
+   "state_short": "CO",
+   "title": "The Shining",
+   "author": "Stephen King",
+   "audiobook_url": "https://sfpl.bibliocommons.com/v2/record/S93C2568719",
+   "img": "img/the_shining.jpg",
+   "published": "2002-10",
+   "pagecount": "530",
+   "average_rating": "4",
+   "description": "This inspiring and compelling book has won ten awards to date, including Honorable Mentions at the December 2012 New England and London Book Festivals, October 2012 Southern California Book Festival and June 2012 New York Book Festival in the category of Spiritual books; is winner of the North American Bookdealers ́ Exchange (NABE) Pinnacle Award for “Inspirational” books in Spring 2011; and has become a much sought-after reference for people seeking to affect positive change around the globe. Readers are: * taught how to recognize, harness and channel positive personal power for the betterment of themselves, their loved ones, associates and our universe * provided an invaluable checklist of great leadership behaviors and attitudes * taught how to recognize controlling behaviors of others and the negative patterns in society * inspired to be the best they can be * compelled to ask themselves \"why am I here; what good can I do for humanity?\" * taught how to recognize a self-limiting posture so they can improve their level of self-awareness......to the point of real self-intelligence and, by so doing, break free of life’s boxes, labels and restrictions * encouraged to erase their fears, trust their abilities and remove their baggage........and take the journey to empowerment and fulfilment in everything they do!"
+ },
+ {
+   "state_long": "Alabama",
+   "state_short": "AL",
+   "title": "Inside Out And Back Again",
+   "author": "Thanhha Lai",
+   "audiobook_url": "https://sfpl.bibliocommons.com/v2/record/S93C4537358",
+   "img": "img/inside_out_and_back_again.jpg",
+   "published": "2012",
+   "pagecount": "262",
+   "average_rating": "N/A",
+   "description": "Moving to America turns H 's life inside out. For all the ten years of her life, H has only known Saigon- the thrills of its markets, the joy of its traditions, the warmth of her friends close by . . . and the beauty of her very own papaya tree. But now the Vietnam War has reached her home. H and her family are forced to flee as Saigon falls, and they board a ship headed toward hope. In America, H discovers the foreign world of Alabama- the coldness of its strangers, the dullness of its food, the strange shape of its landscape . . . and the strength of her very own family. This is the moving story of one girl's year of change, dreams, grief, and healing as she journeys from one country to another, one life to the next."
+ },
+ {
+   "state_long": "Wisconsin",
+   "state_short": "WI",
+   "title": "American Gods",
+   "author": "Neil Gaiman",
+   "audiobook_url": "https://sfpl.bibliocommons.com/v2/search?query=American%20Gods",
+   "img": "img/american_gods.jpg",
+   "published": "",
+   "pagecount": "",
+   "average_rating": "",
+   "description": ""
+ },
+ {
+   "state_long": "South Dakota",
+   "state_short": "SD",
+   "title": "By The Shores Of Silverlake",
+   "author": "Laura Ingalls Wilder",
+   "audiobook_url": "https://sfpl.bibliocommons.com/v2/search?query=By%20The%20Shores%20Of%20Silverlake",
+   "img": "img/by_the_shores_of_silverlake.jpg",
+   "published": "",
+   "pagecount": "",
+   "average_rating": "",
+   "description": ""
+ },
+ {
+   "state_long": "Idaho",
+   "state_short": "ID",
+   "title": "Housekeeping",
+   "author": "Marilynne Robinson",
+   "audiobook_url": "https://sfpl.bibliocommons.com/v2/search?query=Housekeeping",
+   "img": "img/housekeeping.jpg",
+   "published": "1987",
+   "pagecount": "228",
+   "average_rating": "N/A",
+   "description": "An unabridged audio edition of this classic work on the 25th anniversary of its first publicationA modern classic, housekeeping is the story of Ruth and her younger sister, Lucille, who grow up haphazardly, first under the care of their competent grandmother, then of two comically bumbling great-aunts, and finally of Sylvie, their eccentric and remote aunt. The family house is in the small Far West town of Fingerbone set on a glacial lake, the same lake where their grandfather died in a spectacular train wreck, and their mother drove off a cliff to her death. It is a town \" chastened by an outsized landscape and extravagant weather, and chastened again by an awareness that the whole of human history had occurred elsewhere.\" Ruth and Lucille's struggle toward adulthood beautifully illuminates the price of loss and survival, and the dangerous and deep undertow of transience."
+ },
+ {
+   "state_long": "Kentucky",
+   "state_short": "KY",
+   "title": "Jayber Crow",
+   "author": "Wendell Berry",
+   "audiobook_url": "https://sfpl.bibliocommons.com/v2/search?query=Jayber%20Crow",
+   "img": "img/jayber_crow.jpg",
+   "published": "2000",
+   "pagecount": "394",
+   "average_rating": "N/A",
+   "description": "Jayber Crow finds purpose in his life as he works as a barber in a small community."
+ },
+ {
+   "state_long": "Massachusetts",
+   "state_short": "MA",
+   "title": "Townie",
+   "author": "Andre Dubus",
+   "audiobook_url": "https://sfpl.bibliocommons.com/v2/search?query=Townie",
+   "img": "img/townie.jpg",
+   "published": "",
+   "pagecount": "",
+   "average_rating": "",
+   "description": ""
+ },
+ {
+   "state_long": "North Carolina",
+   "state_short": "NC",
+   "title": "A Short History Of A Small Place",
+   "author": "T. R. Pearson",
+   "audiobook_url": "",
+   "img": "img/a_short_history_of_a_small_place.jpg",
+   "published": "",
+   "pagecount": "",
+   "average_rating": "",
+   "description": ""
+ },
+ {
+   "state_long": "Hawaii",
+   "state_short": "HI",
+   "title": "Malachi",
+   "author": "Alan Brennert",
+   "audiobook_url": "",
+   "img": "img/malachi.jpg",
+   "published": "",
+   "pagecount": "",
+   "average_rating": "",
+   "description": ""
+ },
+ {
+   "state_long": "Pennsylvania",
+   "state_short": "PN",
+   "title": "The Killer Angels",
+   "author": "Michael Shaara",
+   "audiobook_url": "",
+   "img": "img/the_killer_angels.jpg",
+   "published": "1975",
+   "pagecount": "402",
+   "average_rating": "N/A",
+   "description": "A novel based on the action Battle of Gettysburg."
+ },
+ {
+   "state_long": "New Mexico",
+   "state_short": "NM",
+   "title": "Ceremony",
+   "author": "Leslie Marmon Silko",
+   "audiobook_url": "https://sfpl.bibliocommons.com/v2/record/S93C4533922",
+   "img": "img/ceremony.jpg",
+   "published": "",
+   "pagecount": "",
+   "average_rating": "",
+   "description": ""
+ },
+ {
+   "state_long": "Ohio",
+   "state_short": "OH",
+   "title": "Beloved",
+   "author": "Toni Morrison",
+   "audiobook_url": "https://sfpl.bibliocommons.com/v2/search?query=Beloved",
+   "img": "img/beloved.jpg",
+   "published": "1988",
+   "pagecount": "304",
+   "average_rating": "4",
+   "description": "WINNER OF THE NOBEL PRIZE IN LITERATURE."
+ },
+ {
+   "state_long": "New Hampshire",
+   "state_short": "NH",
+   "title": "Hotel New Hampshire",
+   "author": "John Irving",
+   "audiobook_url": "https://sfpl.bibliocommons.com/v2/search?query=Hotel%20New%20Hampshire",
+   "img": "img/hotel_new_hampshire.jpg",
+   "published": "",
+   "pagecount": "",
+   "average_rating": "",
+   "description": ""
+ },
+ {
+   "state_long": "Iowa",
+   "state_short": "IA",
+   "title": "1000 Acres",
+   "author": "Jane Smiley",
+   "audiobook_url": "",
+   "img": "img/1000_acres.jpg",
+   "published": "",
+   "pagecount": "",
+   "average_rating": "",
+   "description": ""
+ },
+ {
+   "state_long": "Montana",
+   "state_short": "MT",
+   "title": "Breaking Clean",
+   "author": "Judy J. Blunt",
+   "audiobook_url": "",
+   "img": "img/breaking_clean.jpg",
+   "published": "",
+   "pagecount": "",
+   "average_rating": "",
+   "description": ""
+ },
+ {
+   "state_long": "Georgia",
+   "state_short": "GA",
+   "title": "Gone With The Wind",
+   "author": "Margaret Mitchell",
+   "audiobook_url": "",
+   "img": "img/gone_with_the_wind.jpg",
+   "published": "2008-05-20",
+   "pagecount": "1476",
+   "average_rating": "4.5",
+   "description": "The story of the tempestuous romance between Rhett Butler and Scarlet O'Hara is set amid the drama of the Civil War."
+ },
+ {
+   "state_long": "Maryland",
+   "state_short": "MD",
+   "title": "The Accidental Tourist",
+   "author": "Anne Tyler",
+   "audiobook_url": "",
+   "img": "img/the_accidental_tourist.jpg",
+   "published": "",
+   "pagecount": "",
+   "average_rating": "",
+   "description": ""
+ },
+ {
+   "state_long": "Puerto Rico",
+   "state_short": "PR",
+   "title": "",
+   "author": "",
+   "audiobook_url": "",
+   "img": "img/.jpg",
+   "published": "",
+   "pagecount": "",
+   "average_rating": "",
+   "description": ""
+ },
+ {
+   "state_long": "Arkansas",
+   "state_short": "AR",
+   "title": "Summer Of My German Soldier",
+   "author": "Eowyn Ivey",
+   "audiobook_url": "",
+   "img": "img/summer_of_my_german_soldier.jpg",
+   "published": "",
+   "pagecount": "",
+   "average_rating": "",
+   "description": ""
+ },
+ {
+   "state_long": "Alaska",
+   "state_short": "AK",
+   "title": "To The Bright Edge Of The World",
+   "author": "Greene Bette",
+   "audiobook_url": "https://www.hoopladigital.com/title/13524386?utm_source=MARC",
+   "img": "img/to_the_bright_edge_of_the_world.jpg",
+   "published": "",
+   "pagecount": "",
+   "average_rating": "",
+   "description": ""
+ }
+]
