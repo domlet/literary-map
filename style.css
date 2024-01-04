@@ -22,4 +22,5 @@ body {
   img {
     width: 10em;
     margin: 1em 0;
+    float: right;
   }

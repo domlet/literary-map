@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mapbox Map</title>
-  <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.8.2.min.js"></script>
   <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
   <link href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css" rel="stylesheet" />
   <link rel="stylesheet" href="style.css">
@@ -25,7 +25,8 @@
     var error = new Object();
     $.getJSON('books.js').done(function (data) {
       obj = data;
-      document.getElementById("demo").innerHTML = '<h2>' + obj[0].title + '</h2><br/><p>' + obj[0].author + '</p><img src="' + obj[0].img + '" alt="" />';
+      // document.getElementById("demo").innerHTML = '<h2>' + obj[0].title + '</h2><br/><p>' + obj[0].author + '</p><img src="' + obj[0].img + '" alt="" />';
+      document.getElementsByClassName("mapboxgl-popup-content").innerHTML = '<h2>' + obj[0].title + '</h2><br/><p>' + obj[0].author + '</p><img src="' + obj[0].img + '" alt="" />';
     }).error(function (err) {
       error = err;
     });
@@ -181,7 +182,8 @@
         console.log(stateName)
         new mapboxgl.Popup()
           .setLngLat(coordinates[0][0])
-          .setHTML(stateName)
+          // .setHTML(stateName)
+          .setHTML(document.getElementsByClassName("mapboxgl-popup-content").innerHTML = '<img src="' + obj[0].img + '" alt="" /><h2>' + obj[0].title + '</h2><br/><p>' + obj[0].author + '</p>')
           .addTo(map);
       });
 
