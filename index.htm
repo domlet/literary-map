@@ -39,7 +39,8 @@
       center: [-96, 37.8], // Example center coordinates (longitude, latitude)
       maxZoom: 10,
       minZoom: 2,
-      zoom: 4
+      zoom: 4,
+      renderWorldCopies: false,
     });
     let hoveredPolygonId = null; // for mouseover effect
 
@@ -158,21 +159,11 @@
         // Copy coordinates array.
         const coordinates = e.features[0].geometry.coordinates.slice();
         const stateName = e.features[0].properties.STATE_NAME;
-
-        // Ensure that if the map is zoomed out such that multiple
-        // copies of the feature are visible, the popup appears
-        // over the copy being pointed to.
-        while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
-          coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
-        }
-        console.log(coordinates)
-        console.log(stateName)
         const result = obj.find(obj => {
           return obj.state_long === stateName
         })
         new mapboxgl.Popup()
           .setLngLat(coordinates[0][0])
-          // .setHTML(stateName)
           .setHTML(document.getElementsByClassName("mapboxgl-popup-content").innerHTML =
             '<h4>' + stateName + ' #' + result.state_num + ' (' + result.state_ratified_year + ')</h4 > ' +
             '<h2>' +
