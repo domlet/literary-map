@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Literary Map of the United States (@domlet)</title>
   <script src="https://code.jquery.com/jquery-1.8.2.min.js"></script>
-  <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
-  <link href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css" rel="stylesheet" />
+  <script src="https://api.mapbox.com/mapbox-gl-js/v3.2.0/mapbox-gl.js"></script>
+  <link href="https://api.mapbox.com/mapbox-gl-js/v3.2.0/mapbox-gl.css" rel="stylesheet" />
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing+Script">
 </head>
@@ -33,7 +33,7 @@
 
     var map = new mapboxgl.Map({
       container: 'map',
-      projection: 'mercator',
+      projection: 'globe',
       style: 'mapbox://styles/domlet/clqx1hpcj000k01rc3ihn75lf',
       // style: 'mapbox://styles/mapbox/satellite-v9',
       center: [-96, 37.8], // Example center coordinates (longitude, latitude)
@@ -50,6 +50,14 @@
         'url': 'mapbox://mapbox.mapbox-terrain-dem-v1',
         'tileSize': 512,
         'maxzoom': 14
+      });
+      // https://docs.mapbox.com/mapbox-gl-js/guides/globe/#atmosphere-styling
+      map.setFog({
+        color: 'rgb(186, 210, 235)', // Lower atmosphere
+        'high-color': 'rgb(36, 92, 223)', // Upper atmosphere
+        'horizon-blend': 0.02, // Atmosphere thickness (default 0.2 at low zooms)
+        'space-color': 'rgb(11, 11, 25)', // Background color
+        'star-intensity': 0.6 // Background star brightness (default 0.35 at low zoooms )
       });
       // add the DEM source as a terrain layer with exaggerated height
       map.setTerrain({ 'source': 'mapbox-dem', 'exaggeration': 50 });
