@@ -66,11 +66,12 @@ open https://sfpl.bibliocommons.com/v2/search?query=The%20Book%20Of%20Unknown%20
 
 Well, because I created a tileset with too small a resolution (I wanted to give users the ability to explore the map at pretty high zoom levels), I ended up racking up some Mapbox bills that I had to pay, so after 6 months I just deleted my U.S. tileset and broke the map. So here's my to-do list:
 
+1. **Fix a bug** where popups do not work for states with `MultiPolygon` geometries.
 1. **Modify and restore** the primary tileset.
-2. **Add U.S. territories** to make the colonial history less obscure:
-3. _When I Was Puerto Rican_ (Puerto Rico)
-4. _Leaves of the Banyan Tree_ (American Samoa)
-5. _Land of Love and Drowning_ (Virgin Islands)
+1. **Add U.S. territories** to make the colonial history less obscure:
+1. _When I Was Puerto Rican_ (Puerto Rico)
+1. _Leaves of the Banyan Tree_ (American Samoa)
+1. _Land of Love and Drowning_ (Virgin Islands)
 
 ### Phase 2
 

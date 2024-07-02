@@ -47,6 +47,7 @@ map.on("style.load", () => {
 });
 
 map.on("load", () => {
+  // fixes a bug where original map canvas size is arbitrarily small
   map.resize();
 
   // Add a new source using geoJSON
