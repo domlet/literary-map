@@ -11,17 +11,16 @@ $.getJSON("books.js")
 
 // mapbox
 
-mapboxgl.accessToken =
-  "pk.eyJ1IjoiZG9tbGV0IiwiYSI6ImNscXNhNnd1ZTNvczUya3BoaGx5MGgwM2cifQ.Alj-V3JuDlT8TWGC4Xui_g";
+mapboxgl.accessToken = "pk.eyJ1IjoiZG9tbGV0IiwiYSI6ImNscXNhNnd1ZTNvczUya3BoaGx5MGgwM2cifQ.Alj-V3JuDlT8TWGC4Xui_g";
 
 var map = new mapboxgl.Map({
   container: "map",
-  projection: "globe",
+  projection: "mercator",
   style: "mapbox://styles/domlet/clqx1hpcj000k01rc3ihn75lf",
   // style: 'mapbox://styles/mapbox/satellite-v9',
   center: [-96, 37.8], // Example center coordinates (longitude, latitude)
   maxZoom: 10,
-  minZoom: 2,
+  minZoom: 4, // states disappear when zoom is less than 4
   zoom: 4,
   renderWorldCopies: false,
 });
@@ -82,12 +81,7 @@ map.on("load", () => {
           "hsla(0, 30%, 31%, 0.65)" // fallback
           ],
           */
-        "fill-opacity": [
-          "case",
-          ["boolean", ["feature-state", "hover"], false],
-          0.5,
-          0,
-        ],
+        "fill-opacity": ["case", ["boolean", ["feature-state", "hover"], false], 0.5, 0],
       },
     },
     "hillshade"
@@ -120,16 +114,10 @@ map.on("load", () => {
   map.on("mousemove", "state-fills", (e) => {
     if (e.features.length > 0) {
       if (hoveredPolygonId !== null) {
-        map.setFeatureState(
-          { source: "states", id: hoveredPolygonId },
-          { hover: false }
-        );
+        map.setFeatureState({ source: "states", id: hoveredPolygonId }, { hover: false });
       }
       hoveredPolygonId = e.features[0].id;
-      map.setFeatureState(
-        { source: "states", id: hoveredPolygonId },
-        { hover: true }
-      );
+      map.setFeatureState({ source: "states", id: hoveredPolygonId }, { hover: true });
     }
   });
 
@@ -137,10 +125,7 @@ map.on("load", () => {
   // previously hovered feature.
   map.on("mouseleave", "state-fills", () => {
     if (hoveredPolygonId !== null) {
-      map.setFeatureState(
-        { source: "states", id: hoveredPolygonId },
-        { hover: false }
-      );
+      map.setFeatureState({ source: "states", id: hoveredPolygonId }, { hover: false });
     }
     hoveredPolygonId = null;
   });
