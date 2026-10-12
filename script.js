@@ -132,43 +132,22 @@ map.on("load", () => {
 
   // popups
   map.on("click", "state-fills", (e) => {
-    // Copy coordinates array.
-    const coordinates = e.features[0].geometry.coordinates.slice();
     const stateName = e.features[0].properties.STATE_NAME;
-    const result = obj.find((obj) => {
-      return obj.state_long === stateName;
-    });
-    new mapboxgl.Popup()
-      .setLngLat(coordinates[0][0])
-      .setHTML(
-        (document.getElementsByClassName("mapboxgl-popup-content").innerHTML =
-          "<h4>" +
-          stateName +
-          " #" +
-          result.state_num +
-          " (" +
-          result.state_ratified_year +
-          ")</h4 > " +
-          "<h2>" +
-          result.title +
-          '</h2><a href="' +
-          result.url +
-          '" target="_blank"><img src="' +
-          result.img +
-          '" alt="" /></a><h3> by ' +
-          result.author +
-          "</h3><p>" +
-          result.description +
-          "<hr><p><strong>Published:</strong> " +
-          result.published +
-          "</p><p><strong>Pages: </strong>" +
-          result.pagecount +
-          "</p><p><strong>Average rating:</strong> " +
-          result.average_rating +
-          "</p><p><a href='" +
-          result.audiobook_url +
-          "'>Audiobook</a></p>")
+    const results = obj.filter((book) => book.state_long === stateName);
+    if (results.length === 0) return;
+    const html = results
+      .map(
+        (result) =>
+          "<h4>" + stateName + " #" + result.state_num + " (" + result.state_ratified_year + ")</h4>" +
+          "<h2>" + result.title + '</h2><a href="' + result.url + '" target="_blank"><img src="' + result.img + '" alt="" /></a>' +
+          "<h3> by " + result.author + "</h3><p>" + result.description + "</p><hr>" +
+          "<p><strong>Published:</strong> " + result.published + "</p>" +
+          "<p><strong>Pages: </strong>" + result.pagecount + "</p>" +
+          "<p><strong>Average rating:</strong> " + result.average_rating + "</p>" +
+          "<p><a href='" + result.audiobook_url + "'>Audiobook</a></p>"
       )
+      .join("<hr>");
+    new mapboxgl.Popup().setLngLat(e.lngLat).setHTML(html)
       .addTo(map);
   });
 });
